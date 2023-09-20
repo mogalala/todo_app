@@ -1,0 +1,51 @@
+name: todo
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^5.1.0
+  get: ^4.6.5
+  get_storage: ^2.1.1
+  intl: ^0.18.1
+  date_picker_timeline: ^1.2.5
+  flutter_svg: ^2.0.7
+  flutter_local_notifications: ^15.1.1
+  timezone: ^0.9.2
+  flutter_native_timezone: ^2.0.0
+  flutter_staggered_animations: ^1.1.1
+  rxdart: ^0.27.7
+  sqflite: ^2.3.0
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/todo.jpg"
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/person.jpeg
+    - assets/images/task.svg
